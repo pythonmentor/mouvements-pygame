@@ -30,7 +30,7 @@ def move_up(board):
     board['block'] = x, max(0, y - 1)
 
 
-def update(board, block_size=config.BLOCK_SIZE):
+def update(board, block_size):
     """Retourne le bloc déplacé par l'utilisateur."""
     x, y = board['block']
     return x * block_size, y * block_size

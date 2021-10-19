@@ -58,7 +58,7 @@ def handle_events(app):
 def refresh_screen(app):
     """Mets à jour l'interface utilisation en fonction des mises à jour du back-end"""
     # On déplace le block manipulé par l'utilisateur
-    app['block'].topleft = engine.update(app['gameboard'])
+    app['block'].topleft = engine.update(app['gameboard'], config.BLOCK_SIZE)
 
     # On dessine le fond sur l'écran
     screen = pygame.display.get_surface()
