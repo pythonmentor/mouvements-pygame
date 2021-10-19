@@ -1,7 +1,9 @@
 # Exemple de jeu avec Pygame
 
-Ce projet contient un essai d'organisation pour un jeu simple avec Python et
-la bibliothèque Pygame.
+Ce projet contient un essai d'organisation pour un jeu très simple 
+avec Python et la bibliothèque Pygame. L'objectif de ce mini-jeu, qui n'en est
+pas réellement un, est d'illustrer le déplacement grossier d'un objet à l'aide
+des flèches du clavier.
 
 ## Installation
 
