@@ -11,7 +11,7 @@ screen = pygame.display.set_mode((500, 500))
 background_surface = pygame.Surface((500, 500))
 background_surface.fill((10, 10, 10))
 
-block_surface = pygame.Surface((500, 500))
+block_surface = pygame.Surface((50, 50))
 block_surface.fill('Gold')
 block_rect = block_surface.get_rect()
 block_position = (0, 0)
@@ -33,10 +33,10 @@ while running:
                 block_position = max(0, x - 1), y
             elif event.key == pygame.K_RIGHT:
                 x, y = block_position
-                block_position = min(x + 1, 49), y
+                block_position = min(x + 1, 9), y
             elif event.key == pygame.K_DOWN:
                 x, y = block_position
-                block_position = x, min(y + 1, 49)
+                block_position = x, min(y + 1, 9)
             elif event.key == pygame.K_UP:
                 x, y = block_position
                 block_position = x, max(0, y - 1)
