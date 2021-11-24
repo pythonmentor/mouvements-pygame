@@ -11,7 +11,7 @@ L'installation du jeu se déroule comme suit:
 
 1. Cloner ce code sur votre ordinateur et vous rendre dans le répertoire créé.
 2. Créer un environnement virtual comme vous savez le faire et activez-le.
-3. Installer les dépendances avec la commande `pip install -r requirements.txt`.
+3. Installer les dépendances avec la commande `pipenv install` (il faut au préalable avoir installé pipenv sur son ordinateur).
 
 ## Utilisation
 
